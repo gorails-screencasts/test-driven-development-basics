@@ -34,6 +34,7 @@ class RatingsTest < ApplicationSystemTestCase
     click_on "Back"
   end
 
+
   test "destroying a Rating" do
     visit ratings_url
     page.accept_confirm do
